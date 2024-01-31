@@ -31,15 +31,15 @@ int binary_tree_balance(const binary_tree_t *tree)
  * Return: Height of the subtree
  */
 
-int binary_tree_node_height(const binary_tree_t *node, int H)
+int binary_tree_node_height(const binary_tree_t *node, int h)
 {
 	int left_height, right_height;
 
 	if (node == NULL)
-		return (H);
+		return (h);
 
-	left_height = binary_tree_node_height(node->left, H + 1);
-	right_height = binary_tree_node_height(node->right, H + 1);
+	left_height = binary_tree_node_height(node->left, h + 1);
+	right_height = binary_tree_node_height(node->right, h + 1);
 
 	return (left_height > right_height ? left_height : right_height);
 }
