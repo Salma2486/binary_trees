@@ -25,9 +25,9 @@ int binary_tree_balance(const binary_tree_t *tree)
 }
 
 /**
- * binary_tree_node_height - calculate height of subtree rooted at given node.
- * @node: pointer to the root node of the current subtree
- * @H: current height of subtree
+ * binary_tree_node_height - cw4y 5w46y k
+ * @node: sry hse5ys
+ * @h: srtj nse ty
  * Return: Height of the subtree
  */
 
