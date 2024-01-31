@@ -23,6 +23,12 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 	}
 	return (0);
 }
+/**
+ * binary_tree_node_height - cw4y 5w46y k
+ * @node: sry hse5ys
+ * @h: srtj nse ty
+ * Return: Height of the subtree
+ */
 int binary_tree_node_height(const binary_tree_t *node, int h)
 {
 	int lh, rh;
