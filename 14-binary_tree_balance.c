@@ -36,7 +36,7 @@ int binary_tree_node_height(const binary_tree_t *node, int h)
 	int lh, rh;
 
 	if (node == NULL)
-		return (0);
+		return (h);
 
 	lh = binary_tree_node_height(node->left, h + 1);
 	rh = binary_tree_node_height(node->right, h + 1);
